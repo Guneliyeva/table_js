@@ -1,29 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Table</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div id="table"></div>
-    <!-- Mevcut HTML kodunuza bu düğmeyi ekleyin -->
-<!-- <button id="yeniSatirEkle">Yeni Satır Ekle</button> -->
-<form id="veriFormu">
-    <input type="text" id="td1" placeholder="#">
-    <input type="text" id="td2" placeholder="Ad">
-    <input type="text" id="td3" placeholder="Soyad">
-    <input type="number" id="td4" placeholder="Yaş">
-    <button type="submit">Yadda saxla</button>
-
-   
-    <button type="submit">Satır Ekle</button>
-  </form>
-  
-
-  
-
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>ID</th>
+        <th>AD</th>
+        <th>SOYAD</th>
+        <th>YAŞ</th>
+        <th>ƏMƏLİYYATLAR <button class="btn">+</button></th>
+      </tr>
+      <tbody id="tableBody"></tbody>
+    </table>
     <script src="app.js"></script>
-</body>
+  </body>
 </html>

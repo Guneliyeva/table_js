@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: aqua;
+}
+
+table {
+  border: 1px solid black;
+  width: 100%;
+}
+
+th {
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.btn {
+  background-color: green;
+  padding: 5px 8px;
+  cursor: pointer;
+  border: none;
+}
+
+.saveBtn {
+  color: white;
+  background-color: lime;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 30px;
+  border: none;
+}
+
+.editBtn {
+  color: white;
+  background-color: orange;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 30px;
+  border: none;
+}
+
+.deleteBtn {
+  color: white;
+  background-color: red;
+  padding: 5px;
+  cursor: pointer;
+  border: none;
+}
+
+input {
+  padding: 7px;
+}
+
+td {
+  border: 1px solid black;
+  padding: 20px;
+  text-align: center;
+}
